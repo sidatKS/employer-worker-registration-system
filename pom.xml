@@ -31,14 +31,16 @@
 	
 	<distributionManagement>
 		 <snapshotRepository>
-		    <id>nexusRepo</id>
-		    <url>http://52.66.196.242:8081/repository/sample-snapshots/</url>
-		 </snapshotRepository>
+        <id>snapshots</id>
+        <name>a0k3w2vjs8d2s-artifactory-primary-0-snapshots</name>
+        <url>https://sidatks.jfrog.io/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
 		
 		<repository>
-		    <id>nexusRepo</id>
-		    <url>http://52.66.196.242:8081/repository/sample-releases/</url>
-		</repository>
+        <id>central</id>
+        <name>a0k3w2vjs8d2s-artifactory-primary-0-releases</name>
+        <url>https://sidatks.jfrog.io/artifactory/libs-release-local</url>
+    </repository>
   	</distributionManagement>
 	
 	<pluginRepositories>
